@@ -13,7 +13,6 @@ function moveDodgerLeft() {
     }
   });
 
-
   function moveDodgerRight() {
     const rightnumbers = dodger.style.left.replace("px","");
     const left = parseInt(rightnumbers, 10);
@@ -27,5 +26,3 @@ function moveDodgerLeft() {
       moveDodgerRight();
     }
   });
-
-  
